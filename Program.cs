@@ -10,8 +10,11 @@ namespace CodePractice_Loops_AdamIshak
             int startingVariable = 20;
             Random random = new Random();
             int loopCount = 1;
-            while (startingVariable > 0 && startingVariable < 50)
+            while (true)
+
             {
+                Console.WriteLine("startingVariable > 0 && startingVariable < 50");
+               
                 int randomNumber = random.Next(0, 10);
 
             }
